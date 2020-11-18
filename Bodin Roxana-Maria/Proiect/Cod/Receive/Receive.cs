@@ -9,7 +9,7 @@ namespace Receive
     {
        public static void Main()
         {
-        var factory = new ConnectionFactory() { Uri =new Uri( "amqp://niifhhdp:gdvQnylJbzwz7zRYe2YccrCS3cRNNXQ2@dove.rmq.cloudamqp.com/niifhhdp") };
+        var factory = new ConnectionFactory() { Uri =new Uri(  var factory = new ConnectionFactory() { Uri =new Uri("amqps://yrmqwgpp:839XWvPBlvx4M8LfNzvouwds7bBV26bL@chinook.rmq.cloudamqp.com/yrmqwgpp") };) };
         using(var connection = factory.CreateConnection())
         using(var channel = connection.CreateModel())
         {
