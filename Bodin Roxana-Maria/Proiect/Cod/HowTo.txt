@@ -1,0 +1,9 @@
+How to:
+Clone project
+Open in VisualStudioCode the folder Web
+Run with the command dotnet run
+Open parallel another VSCode with folder Receive
+Run with command dotnet run
+Go to the localhost link mentioned in the terminal
+The project uses Microsoft Azure tables , and the trial for subscription is over. 
+To see the app working with all it's functionalities i must use another account or cut off the login part.
